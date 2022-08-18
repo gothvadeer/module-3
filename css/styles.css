@@ -1,0 +1,129 @@
+body {
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ==================== NAV ==================== */
+#header-nav {
+    background-color: black;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: rgb(86, 244, 194);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+}
+
+#nav-list {
+    background-color: black
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: rgb(86, 244, 194);
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: rgb(164, 230, 209);
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid;
+}
+
+/* ================== BOX ======================= */
+
+#box {
+    text-align: justify;
+}
+
+.box-2 {
+    width: 70px;
+    height: 22px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    left: 82%;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.back {
+    color: rgb(86, 244, 194);
+}
+
+.back:hover {
+    text-decoration: none;
+    color: rgb(132, 192, 173);
+}
+
+#one {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#two {
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#three {
+    background-color: rgb(85, 187, 210);
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: rgb(86, 244, 194);
+}
+
+
+#chicken-tile,
+#beef-tile,
+#sushi-tile {
+    width: 100%;
+    padding: 8px;
+    background-color: gray;
+    margin-bottom: 60px;
+    box-shadow: 0 0 80px rgb(86, 244, 194);
+}
+
+a {
+    color: #000000;
+}
